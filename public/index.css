@@ -4,70 +4,52 @@ body {
 }
 
 .main_block {
-    background-color: #17171d;
     height: 400px;
     width: 40%;
     margin-left: 10%;
     position: absolute;
-    bottom: 300px;
+    top: 215px;
 }
 
 .block {
-    color: white;
-    font-size: 40px;
+    color: #33ffd6;
+    font-size: 35px;
     font-family: 'Comfortaa', cursive;
 
 }
 
 .block1 {
     color: white;
-    font-size: 20px;
+    font-size: 15px;
     font-family: 'Comfortaa', cursive;
     word-spacing: 1px;
 }
 
 .block2 {
     color: grey;
-    font-size: 12px;
+    font-size: 10px;
     word-spacing: 2px;
     font-family: 'Comfortaa', cursive;
 
 }
 
+.R {
+    width: 20%;
+    position: absolute;
+    left: 65%;
+    bottom: 180px;
+}
+
 .card {
-    background-color: linear-gradient(#67B26F, #4ca2cd);
-    height: 500px;
-    width: 25%;
+    background-color: linear-gradient(#136a8a, #267871);
+    height: 350px;
+    width: 35%;
     float: left;
-    margin-left: 60%;
     position: absolute;
-    top: 88%;
-    right: 50%;
-    margin-right: 7%;
-    background-image: linear-gradient(#67B26F 0px, #4ca2cd 75%);
-    /* background-position-x: initial;
-    background-position-y: initial;
-    background-size: initial;
-    background-repeat: initial;
-    background-repeat: initial;
-    background-attachment: initial;
-    background-origin: initial;
-    background-clip: initial;
-    background-color: initial; */
-}
-
-.card_1 {
-    background-color: linear-gradient(#67B26F, #4ca2cd);
-    height: 500px;
-    width: 25%;
-    float: left;
-    margin-left: 60%;
-    position: absolute;
-    top: 88%;
+    top: 120%;
     left: 10%;
-    margin-right: 7%;
-    background-image: linear-gradient(#67B26F 0px, #4ca2cd 75%);
-    /* background-position-x: initial;
+    background-image: linear-gradient(#136a8a, #267871);
+    background-position-x: initial;
     background-position-y: initial;
     background-size: initial;
     background-repeat: initial;
@@ -75,20 +57,121 @@ body {
     background-attachment: initial;
     background-origin: initial;
     background-clip: initial;
-    background-color: initial; */
-}
-
-.card:hover {
-    box-shadow: 3px 3px 5px Grey;
+    background-color: initial;
+    border-radius: 5px;
 }
 
 .card1 {
     text-align: center;
-    font-size: 25px;
+    font-size: 26px;
     color: white;
+    font-weight: lighter;
     position: absolute;
-    top: 20%;
+    top: 5%;
+    left: 20%;
+}
+
+.card2 {
+    background-color: linear-gradient(#136a8a, #267871);
+    height: 350px;
+    width: 35%;
+    float: left;
+    position: absolute;
+    top: 120%;
+    left: 55%;
+    margin-right: 7%;
+    background-image: linear-gradient(#136a8a, #267871);
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat: initial;
+    background-repeat: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+    border-radius: 5px;
+}
+
+.card3 {
+    font-size: 26px;
+    color: white;
+    font-weight: lighter;
+    position: absolute;
+    top: 5%;
+    left: 20%;
+}
+
+.label1 {
+    position: absolute;
+    top: 150px;
     left: 10%;
+    font-size: 23px;
+    font-family: 'Comfortaa', cursive;
+    color: white;
+    font-weight: bold;
+}
+
+.label2 {
+    position: absolute;
+    top: 220px;
+    left: 10%;
+    font-size: 23px;
+    font-family: 'Comfortaa', cursive;
+    color: white;
+    font-weight: bold;
+}
+
+.search1 {
+    position: absolute;
+    left: 30%;
+    top: 40%;
+    width: 250px;
+    height: 35px;
+    font-size: 23px;
+    border: 2px solid #376df9;
+    outline-color: #376df9;
+    color: black;
+    border-radius: 5px;
+    font-family: 'Comfortaa', cursive;
+}
+
+.search {
+    position: absolute;
+    left: 30%;
+    top: 40%;
+    width: 250px;
+    height: 35px;
+    font-size: 23px;
+    border: 2px solid #376df9;
+    outline-color: #376df9;
+    color: black;
+    border-radius: 5px;
+    font-family: 'Comfortaa', cursive;
+}
+
+.search2 {
+    position: absolute;
+    left: 30%;
+    top: 60%;
+    width: 250px;
+    height: 35px;
+    font-size: 23px;
+    border: 2px solid #376df9;
+    outline-color: #376df9;
+    color: black;
+    border-radius: 5px;
+    font-family: 'Comfortaa', cursive;
+}
+
+.label {
+    position: absolute;
+    top: 150px;
+    left: 10%;
+    font-size: 23px;
+    font-family: 'Comfortaa', cursive;
+    color: white;
+    font-weight: bold;
 }
 
 .button {
@@ -101,8 +184,9 @@ body {
     background-color: inherit;
     font-size: 14px;
     display: inline-block;
-    margin-left: 35px;
-    margin-right: 10px;
+    margin-left: 35%;
+    position: absolute;
+    bottom: 14%;
     background-color: #376df9;
     color: white;
     font-weight: bold;
@@ -110,31 +194,45 @@ body {
     border-radius: 10px;
 }
 
-.button1:hover {
-    outline-color: #FFFFE0;
+.button2 {
+    padding: 14px 28px;
+    background-color: inherit;
+    font-size: 14px;
+    display: inline-block;
+    margin-left: 35%;
+    position: absolute;
+    bottom: 12%;
+    background-color: #376df9;
+    color: white;
+    font-weight: bold;
+    border: 2px solid #376df9;
+    border-radius: 10px;
 }
 
 .content {
     color: white;
     width: 30%;
     height: 30%;
-    margin-top: 15%;
+    /* margin-top: 45%; */
     display: inline-block;
-    margin-left: 12%;
+    margin-left: 20%;
 }
 
-/* .page1 img{
-  width:70px;
-  height:70px;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-  border-radius: 50%;
-  padding-top: 5px;
-  margin-top: 5px;
-} */
+.page1 {
+    height: 70px;
+    width: 70px;
+    background-color: linear-gradient(#136a8a, #267871);
+    background-image: linear-gradient(#136a8a, #267871);
+    border-radius: 50%;
+    position: relative;
+    left: 42%;
+    top: 10px;
+
+}
+
 .fas {
-    margin-left: 250px;
+    margin-top: 18px;
+    margin-left: 18px;
 }
 
 .page2 {
@@ -143,16 +241,16 @@ body {
 
 .page2 h3 {
     font-size: 32px;
-    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 
 .page2 p {
     font-size: 23px;
     color: grey;
-    font-family: 'Baloo Bhaijaan 2', cursive;
-    margin-bottom: 3px;
-    padding-bottom: 3px;
+    font-family: 'Lato', sans-serif;
     font-weight: bold;
+    width: 400px;
+    margin-left: 30px;
 }
 
 .content1 {
@@ -160,9 +258,9 @@ body {
     color: white;
     width: 30%;
     height: 30%;
-    margin-top: 20%;
+    margin-top: 45%;
     display: inline-block;
-    margin-left: 12%;
+    margin-left: 2%;
 }
 
 .page3 img {
@@ -183,16 +281,16 @@ body {
 
 .page4 h3 {
     font-size: 32px;
-    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 
 .page4 p {
     font-size: 23px;
     color: grey;
-    font-family: 'Baloo Bhaijaan 2', cursive;
+    font-family: 'Lato', sans-serif;
     font-weight: bold;
-    margin-bottom: 3px;
-    padding-bottom: 3px;
+    width: 400px;
+    margin-left: 30px;
 }
 
 .content2 {
@@ -201,7 +299,7 @@ body {
     height: 30%;
     margin-top: 5%;
     display: inline-block;
-    margin-left: 12%;
+    margin-left: 20%;
 }
 
 .page5 img {
@@ -240,7 +338,7 @@ body {
     height: 30%;
     margin-top: 5%;
     display: inline-block;
-    margin-left: 12%;
+    margin-left: 2%;
 }
 
 .page7 img {
@@ -279,7 +377,7 @@ body {
     height: 30%;
     margin-top: 5%;
     display: inline-block;
-    margin-left: 12%;
+    margin-left: 20%;
 }
 
 .page9 img {
@@ -317,7 +415,7 @@ body {
     height: 30%;
     margin-top: 5%;
     display: inline-block;
-    margin-left: 12%;
+    margin-left: 2%;
 }
 
 .page11 img {
@@ -349,35 +447,10 @@ body {
     padding-bottom: 3px;
 }
 
-.search {
-    position: absolute;
-    left: 12%;
-    top: 60%;
-    width: 350px;
-    height: 40px;
-    font-size: 23px;
-    border: 2px solid #376df9;
-    outline-color: #376df9;
-    color: black;
-}
-
-.search1 {
-    position: absolute;
-    left: 12%;
-    top: 70%;
-    width: 350px;
-    height: 40px;
-    font-size: 23px;
-    border: 2px solid #376df9;
-    outline-color: #376df9;
-    color: black;
-}
-
-.feature-tile {
-    background-color: linear-gradient(100deg, #376df9 0, #ff5fa0 75%, #ffc55a 100%);
-    ;
-}
-
 .fas {
     color: white;
+}
+
+.features {
+    margin-bottom: 100px;
 }

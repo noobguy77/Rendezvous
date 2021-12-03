@@ -21,6 +21,6 @@
 
 var particles = Particles.init({
     selector: '.background',
-    color: ['#DA0463', '#404B69', '#DBEDF3'],
+    color: ['#136a8a', '#267871', '#ffffff'],
     connectParticles: true
 });
