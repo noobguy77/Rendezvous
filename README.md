@@ -9,7 +9,7 @@ A Tech-Interview Application.
 - PeerJS (to share audio and video streams between different parties)
 
 ## Features of this app -
-- Create a meeting and Join an exisitng meeting
+- Create a meeting and Join an existing meeting
 - Video Sharing
 - Talk and Listen
 - Multi party meeting
