@@ -1,5 +1,5 @@
 # Rendezvous
-A Tech-Interview Application.
+A Tech-Interview x Zoom Application.
 
 
 ## Tech-stack -
