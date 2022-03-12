@@ -1,5 +1,7 @@
 # Rendezvous
 A Tech-Interview x Zoom Application.
+Submssion for MODIFEST Hackathon
+Verdict - Placed 3rd
 
 
 ## Tech-stack -
